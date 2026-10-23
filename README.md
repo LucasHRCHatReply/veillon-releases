@@ -26,7 +26,7 @@ Dans Terminal (Cmd + Espace, « Terminal »), une seule commande, qui installe a
 curl -fsSL https://raw.githubusercontent.com/LucasHRCHatReply/veillon-releases/main/installer.sh | zsh
 ```
 
-Le script vérifie l'empreinte SHA-256, l'identifiant et l'équipe de signature, puis place Veillon dans `~/Applications`.
+Le script vérifie l'empreinte SHA-256, l'identifiant et l'équipe de signature, puis place Veillon dans `/Applications`.
 
 ## Mettre à jour
 

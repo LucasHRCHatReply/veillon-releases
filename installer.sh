@@ -2,7 +2,7 @@
 # Veillon — installation ou mise à jour, sans compte GitHub et sans outil à installer :
 #   curl -fsSL https://raw.githubusercontent.com/LucasHRCHatReply/veillon-releases/main/installer.sh | zsh
 # Le script télécharge la dernière version publiée, vérifie l'empreinte SHA-256, l'identifiant et l'équipe de signature
-# (codesign --verify --deep --strict), puis lance install.sh du zip : Veillon.app va dans ~/Applications, la quarantaine est
+# (codesign --verify --deep --strict), puis lance install.sh du zip : Veillon.app va dans /Applications, la quarantaine est
 # levée sur Veillon.app seulement, l'app est lancée. Une instance de Veillon qui tourne est quittée d'abord. L'historique et les réglages (~/Library/Application Support/Veillon) ne sont jamais touchés.
 # Aucun mot de passe administrateur. Le script se lit en entier avant de le lancer.
 set -uo pipefail
